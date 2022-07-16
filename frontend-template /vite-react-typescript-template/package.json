@@ -1,0 +1,51 @@
+{
+  "name": "vite-react-typescript-template",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --host --port 8080",
+    "start": "vite --host --port 8080",
+    "build": "tsc && vite build",
+    "build-prod": "cross-env env_config=prod vite build",
+    "build-uat": "cross-env env_config=uat vite build",
+    "build-test": "cross-env env_config=test vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@sentry/react": "^7.1.1",
+    "@types/qs": "^6.9.7",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "postcss-pxtorem": "^6.0.0",
+    "prettier": "^2.7.1",
+    "qs": "^6.10.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "sass": "^1.52.3"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.0",
+    "@types/redux-logger": "^3.0.9",
+    "@vitejs/plugin-react": "^1.3.0",
+    "@xmly/donyfengos-utils": "^1.0.1-beta.5",
+    "antd-mobile": "^5.15.0",
+    "axios": "^0.27.2",
+    "cross-env": "^7.0.3",
+    "crypto-js": "^4.1.1",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.12"
+  }
+}
