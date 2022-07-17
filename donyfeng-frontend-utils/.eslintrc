@@ -1,0 +1,45 @@
+{
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".ts"]
+            }
+        }
+    },
+    "env": {
+        "node": true,
+        "commonjs": true,
+        "browser": true
+    },
+    "extends": ["airbnb-base", "plugin:@typescript-eslint/recommended"],
+    "rules": {
+        "@typescript-eslint/explicit-function-return-type": 0,
+        "@typescript-eslint/no-explicit-any": 0,
+        "@typescript-eslint/camelcase": 0,
+        "guard-for-in": 0,
+        "no-unused-expressions": [1, {
+            "allowShortCircuit": true
+        }],
+        "no-plusplus": 0,
+        "no-param-reassign": 0,
+        "no-nested-ternary": 0,
+        "no-restricted-syntax": 0,
+        "import/prefer-default-export": 0,
+        "max-len": 0,
+        "class-methods-use-this": "off",
+        "import/extensions": "off",
+        "indent": ["warn", 4],
+        "linebreak-style": ["off", "windows"],
+        "quotes": [1, "double"],
+        "semi": ["warn", "always"],
+        "no-unused-vars": [0, {
+            // 允许声明未使用变量
+            "vars": "local",
+            // 参数不检查
+            "args": "none"
+        }],
+        "operator-linebreak": "off",
+        "no-restricted-globals": ["error", "event", "fdescribe"],
+        "@typescript-eslint/explicit-module-boundary-types": "off"
+    }
+}

@@ -1,4 +1,3 @@
-import { Utils } from '@xmly/donyfengos-utils'
 
 /*
  * global请求状态
@@ -44,4 +43,4 @@ export class HandleRequests {
   }
 }
 
-export default Utils
+export default {HandleRequests}
